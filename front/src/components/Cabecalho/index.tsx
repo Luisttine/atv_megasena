@@ -1,5 +1,4 @@
 import { HTMLAttributes } from "react";
-import { AcumuladoSld } from "../Acumulado/styles";
 import { WrapperSld, ResultadoSld, ConcursoSld } from "./styles";
 
 type Arley = HTMLAttributes<HTMLElement> & {

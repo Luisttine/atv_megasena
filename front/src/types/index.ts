@@ -1,8 +1,10 @@
 export interface Props {
-    numero: number,
-    localSorteio: string,
-    nomeMunicipioUFSorteio: string,
-    acumulado: boolean,
-    dataApuracao: string,
-    listaDezenas: string[]
+    numero: number;
+    acumulado: boolean;
+    localSorteio: string;
+    nomeMunicipioUFSorteio: string;
+    dataApuracao: string;
+    dataProximoConcurso: string;
+    valorEstimadoProximoConcurso: number;
+    listaDezenas: string[];
 }
