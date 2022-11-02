@@ -10,8 +10,9 @@ export const NumeroSorteio = styled.div`
     height: 35px;
     padding: 5px 10px 10px;
     margin: 4px;
+    display: inline-block;
 `;
 
-export const Div = styled.div`
-    display: inline-block;
+export const Div = styled.div `
+    display: block;
 `

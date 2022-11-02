@@ -3,6 +3,7 @@ import { Acumulado } from "../components/Acumulado/index";
 import { Cabecalho } from "../components/Cabecalho";
 import { Local } from "../components/Local/index";
 import { NumeroSorteado } from "../components/NumerosSorte/index";
+import { ProxSorteio } from "../components/ProxSorteio";
 import services from "../services";
 import { Props } from "../types";
 
@@ -30,6 +31,7 @@ export default function Principal() {
             }
             <Local localSorteio={concurso.localSorteio} nomeMunicipioUFSorteio={concurso.nomeMunicipioUFSorteio} />
             {concurso.listaDezenas && <NumeroSorteado numeroSorteio={concurso.listaDezenas}/>}
+            <ProxSorteio dataProximoConcurso={concurso.dataProximoConcurso} valorEstimadoProximoConcurso={concurso.valorEstimadoProximoConcurso}/>
         </>
     );
 }

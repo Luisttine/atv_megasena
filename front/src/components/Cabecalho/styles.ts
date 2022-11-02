@@ -3,15 +3,13 @@ import styled from 'styled-components';
 export const WrapperSld = styled.div`
     border-bottom: 1px solid #bbb;
     display: flex;
-    padding: 10px 0px;
+    padding: 0.4% 0.4% 1%;
 `;
 
 export const ResultadoSld = styled.div`
     font-size: 30px;
     color: #0066b3;
     font-weight: bold;
-    display: flex;
-    align-items: flex-end;
 `;
 
 export const ConcursoSld = styled.div`

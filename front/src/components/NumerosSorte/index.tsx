@@ -1,4 +1,4 @@
-import { Div, NumeroSorteio } from "./styles";
+import { NumeroSorteio, Div } from "./styles";
 import { HTMLAttributes } from "react";
 
 type Arley = HTMLAttributes<HTMLElement> & {
@@ -6,13 +6,13 @@ type Arley = HTMLAttributes<HTMLElement> & {
 }
 export function NumeroSorteado({numeroSorteio}:Arley){
 
-
-
     return(
         <>
-        {numeroSorteio.map((n) => (
-            <Div><NumeroSorteio key={n}>{n}</NumeroSorteio></Div>
-        ))}        
+            <Div>
+                {numeroSorteio.map((n) => (
+                    <NumeroSorteio key={n}>{n}</NumeroSorteio>
+                ))}  
+            </Div>
         </>
     )
 }
