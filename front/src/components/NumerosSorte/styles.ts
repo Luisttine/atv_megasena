@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const NumeroSorteio = styled.div`
     font-size: 25px;
-    color: #fff;
+    color: ${props => props.theme.text};
     font-weight: bold;
-    background-color: #209869;
+    background-color: ${props => props.theme.ball};
     border-radius: 30px;
     width: 31px;
     height: 35px;

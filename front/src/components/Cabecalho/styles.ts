@@ -8,13 +8,13 @@ export const WrapperSld = styled.div`
 
 export const ResultadoSld = styled.div`
     font-size: 30px;
-    color: #0066b3;
+    color: ${props => props.theme.color};
     font-weight: bold;
 `;
 
 export const ConcursoSld = styled.div`
     font-size: 20px;
-    color: #aaa;
+    color: ${props => props.theme.color};
     display: flex;
     align-items: flex-end;
     padding-bottom: 0.3%;
